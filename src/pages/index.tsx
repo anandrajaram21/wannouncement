@@ -111,7 +111,7 @@ _Acknowledge once read_
           </div>
           <div className="flex w-full flex-col gap-5 p-5 md:w-1/2">
             <Label>Final Message</Label>
-            <Textarea placeholder="Message" value={finalMessage} />
+            <Textarea placeholder="Message" value={finalMessage} rows={20} />
             <Button onClick={() => copyToClipboard()}>
               <CopyIcon className="mr-2 h-4 w-4" />
               {buttonText}
